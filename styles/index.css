@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  background-color: #130e48;
+  font-family: "Roboto", sans-serif;
+}
+
+#main {
+  color: #fff;
+}
+
+img {
+  width: 35%;
+  border-top-left-radius: 43%;
+  border-top-right-radius: 43%;
+  border: 5px solid;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img-div {
+  align-content: center;
+  text-align: center;
+}
+
+#title {
+  text-align: right;
+  margin-right: 88px;
+  font-size: 22px;
+}
+
+#info {
+  display: flex;
+  top: 50%;
+  position: absolute;
+}
+
+#tribute-info {
+  width: 25%;
+  margin-left: 3%;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+#tribute-info p {
+  padding: 5%;
+}
+
+#tribute-link {
+  top: 0%;
+  right: 14%;
+  position: absolute;
+}
+
+.outer-circle {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 0%;
+  right: 30%;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+}
+
+.inner-circle {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: 3px dotted #ffffff;
+  margin: 10px auto;
+}
+
+.inner-circle p {
+  color: #ffffff;
+  font-weight: bold;
+  margin: 48.75px 12.5px;
+}
+
+.outer-circle:hover {
+  background-color: #fff000;
+}
+
+@media (max-width: 420px) {
+  #info {
+    display: flex;
+    top: 33%;
+    position: absolute;
+  }
+
+  #tribute-info {
+    width: 92%;
+    margin: 15%;
+  }
+
+  #tribute-link {
+    top: 100%;
+    right: 32%;
+    position: absolute;
+  }
+}
